@@ -17,6 +17,6 @@ $(document).ready(function()){
   }
 
   function firstListItem() {
-    
+    $('#pic-list ul li:first-child')
   }
 }
