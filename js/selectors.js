@@ -1,6 +1,10 @@
 // declare your functions here...
+function paragraphSelector() {
+   return $('p');
+}
+
 $(document).ready(function () {
-  var paragraphSelector = function() {
+  function paragraphSelector() {
      return $('p');
   }
 
