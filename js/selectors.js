@@ -1,5 +1,5 @@
 // declare your functions here...
-$(document).ready(function()){
+$(document).ready(function(){
   function paragraphSelector() {
      $('p');
   }
@@ -19,4 +19,4 @@ $(document).ready(function()){
   function firstListItem() {
     $('#pic-list li:first-child')
   }
-}
+})
