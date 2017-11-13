@@ -3,24 +3,31 @@ function paragraphSelector() {
    return $('p');
 }
 
+function lastImageSelector() {
+  $('div img:last')
+}
+
+function ninjaBabySelector() {
+  return $('#baby-ninja')
+}
+
+function divSelector() {
+  $('.pics')
+}
+
+function firstListItem() {
+  $('#pic-list li:first-child')
+}
+
 $(document).ready(function () {
-  function paragraphSelector() {
-     return $('p');
-  }
+  paragraphSelector();
 
-  function lastImageSelector() {
-    $('div img:last')
-  }
+  lastImageSelector()
 
-  function ninjaBabySelector() {
-    return $('#baby-ninja')
-  }
+  ninjaBabySelector()
 
-  function divSelector() {
-    $('.pics')
-  }
-
-  function firstListItem() {
-    $('#pic-list li:first-child')
-  }
+  divSelector();
+  
+  firstListItem();
+  
 })
