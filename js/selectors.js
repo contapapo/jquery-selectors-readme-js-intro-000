@@ -5,6 +5,6 @@ $(document).ready(function()){
   }
 
   function lastImageSelector() {
-    $('div img:last-child')
+    $('div img:last')
   }
 }
